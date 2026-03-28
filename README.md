@@ -11,36 +11,24 @@ You can download the latest stable build for Android here:
 
 > **Installation Note:** Since this is a beta release, you may need to enable **"Install from Unknown Sources"** in your Android security settings to complete the installation.
 
----
+Here is a brief summary of the changes for Version 2.0.0:
 
-## ✨ Key Features
+Global Song Library: Migrated from chapter-specific folders to a single, unified database shared by all users.
 
-* **Real-time Synchronization:** Admins can control the lineup via Firebase, allowing members to view lyrics/scriptures in real-time.
-* **Intelligent Sermon Archive:** Automatically saves and archives the "Last Sermon" (Title & Verse) once a service lineup is cleared.
-* **Verse of the Day:** Access a curated list of over 250+ scriptures that update every 24 hours.
-* **Biometric Authentication:** Secure and fast login using Fingerprint or Face ID for saved credentials.
-* **Smart Chord Indicator:** Visual indicators (Red/Orange dots) showing if a song has complete, incomplete, or no chords.
-* **Built-in Guitar Tuner:** A handy utility for musicians during rehearsals or live sets.
+Open Contribution: Updated permissions to allow all members to Add and Edit songs while keeping Deletion Admin-only.
 
----
+Full Name Integration: Added First and Last Name fields to user accounts for better team identification.
 
-## 🛠 Tech Stack
-* **Language:** Kotlin
-* **UI Framework:** Jetpack Compose
-* **Backend:** Firebase (Real-time Database & Authentication)
+Legacy User Onboarding: Implemented a smart dialog that prompts existing users to update their profile names upon login.
 
----
+Ministry Team Directory: Introduced a new "Groups" screen to view all registered members, emails, and chapters.
 
-## 📝 How to Test
-1.  **Verse of the Day:** Verify the pop-up appears once per day upon opening.
-2.  **Admin Dashboard:** Test the **Clear Lineup** function and verify the sermon is correctly archived.
-3.  **Biometrics:** Enable Biometric Login after your first successful manual login.
-4.  **Search:** Test the search functionality within the song library.
+Session Fix: Eliminated the "Double Login" bug by ensuring user roles load completely before entering the dashboard.
 
----
+Clean Logout: Added a reset function that clears all cached data and listeners when switching accounts.
 
-## 👥 Credits
-* **Developer:** Melanio Casipong
-* **Ministry:** © 2026 Throne of the Risen Christ International Ministry™
+Adaptive Typing UI: Redesigned input screens to hide headers when the keyboard is open, maximizing the lyrics area.
 
----
+Liquid Glass UI: Extended the signature dark glassy theme and cyan borders to all new dialogs and screens.
+
+Major Version Bump: Formally accelerated to v2.0.0 to reflect these major architectural and feature upgrades.

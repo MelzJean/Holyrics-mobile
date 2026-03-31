@@ -1,34 +1,30 @@
-# 🎵 Holyrics-mobile
+The version is already set to 3.0.0. Let me update the versionCode for the release build: Updated. Here's the finalized Play Store description:
 
-A professional worship tool designed for seamless lyric and scripture delivery. Holyrics-mobile (also known as Mobile Presenter) is built to support worship leaders, preachers, and church technical teams through real-time performance and cloud-based technology.
+What's New in Version 3.0.0
 
----
+Major New Features
 
-## 📥 Download & Test
-You can download the latest stable build for Android here:
+Song Preview Screen - Review songs with full chords and lyrics before adding to lineup
+Prayer Screen - Dedicated screen for Bible prayers with modern liquid glass UI
+Song Search & Filter - Quickly find songs by title, artist, key, or lyrics content
+Global Song Library - Unified database shared by all team members
 
-👉 **[Download Holyrics Mobile v1.0.0 APK](https://github.com/MelzJean/Holyrics-mobile/releases/download/v1.0.0/Holyrics.Mobile.apk)**
+Performance & Stability
 
-> **Installation Note:** Since this is a beta release, you may need to enable **"Install from Unknown Sources"** in your Android security settings to complete the installation.
+Memory leak fixes and production-ready build configuration
+Optimized Firebase network APIs for better connectivity
+ProGuard minification for reduced app size
 
-Here is a brief summary of the changes for Version 2.0.0:
+UI Enhancements
 
-Global Song Library: Migrated from chapter-specific folders to a single, unified database shared by all users.
+Redesigned Add/Edit Song screens with gradient headers and live preview
+Enhanced drag-and-drop reordering with haptic feedback
+Extended liquid glass styling with cyan borders throughout
+Better verse formatting in Bible reader
+Improved keyboard handling for cleaner input experience
 
-Open Contribution: Updated permissions to allow all members to Add and Edit songs while keeping Deletion Admin-only.
+User Experience
 
-Full Name Integration: Added First and Last Name fields to user accounts for better team identification.
-
-Legacy User Onboarding: Implemented a smart dialog that prompts existing users to update their profile names upon login.
-
-Ministry Team Directory: Introduced a new "Groups" screen to view all registered members, emails, and chapters.
-
-Session Fix: Eliminated the "Double Login" bug by ensuring user roles load completely before entering the dashboard.
-
-Clean Logout: Added a reset function that clears all cached data and listeners when switching accounts.
-
-Adaptive Typing UI: Redesigned input screens to hide headers when the keyboard is open, maximizing the lyrics area.
-
-Liquid Glass UI: Extended the signature dark glassy theme and cyan borders to all new dialogs and screens.
-
-Major Version Bump: Formally accelerated to v2.0.0 to reflect these major architectural and feature upgrades.
+Proper navigation backstack handling
+Clean logout with cached data cleanup
+Open contribution - all team members can add and edit songs

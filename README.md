@@ -1,5 +1,3 @@
-The version is already set to 3.0.0. Let me update the versionCode for the release build: Updated. Here's the finalized Play Store description:
-
 What's New in Version 3.0.0
 
 Major New Features
